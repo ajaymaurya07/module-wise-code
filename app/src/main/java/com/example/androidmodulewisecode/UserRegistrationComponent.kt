@@ -4,11 +4,11 @@ import dagger.Component
 
 @Component
 interface UserRegistrationComponent {
-    fun getRegistrationService():RegistrationService
-    fun getEmailService():EmailService
+//    fun getRegistrationService():RegistrationService
+//    fun getEmailService():EmailService
 
 //     using field injection
 
-//    fun inject(mainActivity: MainActivity)
+    fun inject(mainActivity: MainActivity)
 
 }
